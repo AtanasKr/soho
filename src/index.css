@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.more-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.more-btn button {
+  border-radius: 15px;
+  width: 200px;
+  max-height: 50px;
+  padding: 9px;
+  background-color: #45508B;
+  color: white;
+  border: none;
+  font-size: 28px;
+}
