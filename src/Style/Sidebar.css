@@ -1,0 +1,39 @@
+.side-bar {
+    display: none;
+}
+
+@media (max-width: 750px) {
+    .side-bar {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .side-menu{
+        position: absolute;
+        z-index: 20;
+        right: 0;
+        padding-right: 50px;
+        background-color: black;
+        text-align: center;
+        padding-left: 20px;
+        border-radius: 20px;
+        color: white;
+        margin-top: 10px;
+    }
+    .close-menu,
+    .open-menu {
+        max-width: 30px;
+        max-height: 30px;
+        padding-top: 1em;
+        height: 100%;
+        position: absolute;
+        z-index: 10;
+        right: 0;
+        padding-right: 0.5em;
+    }
+}
+
+@media (max-width: 650px) {
+    .side-bar{
+        background-color: #45508B;
+    }
+}
