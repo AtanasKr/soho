@@ -11,8 +11,8 @@ const NavBar = () => {
                 <li><Link to="/contacts" style={{ color: 'inherit', textDecoration: 'inherit' }}>Contacts</Link></li>
             </ul>
             <div className='nav-btns'>
-            <Link to="/contacts"><button className='nav-btn'>Login</button></Link>
-                <button className='nav-btn'>Signup</button>
+            <Link to="/login"><button className='nav-btn'>Login</button></Link>
+            <Link to="/register"><button className='nav-btn'>Signup</button></Link>
             </div>
         </nav>
     )
