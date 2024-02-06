@@ -1,18 +1,16 @@
-import Content from "./components/Content";
-import NavBar from "./components/NavBar";
-import Sidebar from "./components/Sidebar";
+import Contacts from "./pages/Contacts";
+import Furniture from "./pages/Furniture";
+import Home from "./pages/Home";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <NavBar />
-        <Sidebar />
-      </header>
-      <Content />
-      <div className="more-btn">
-        <button className="more-btn">Explore More</button>
-      </div>
+      <Routes>
+      <Route path="/" element={<Home />}/>
+        <Route path="/contacts" element={<Contacts />}/>
+        <Route path="/furniture" element={<Furniture />}/>
+      </Routes>
     </div>
   );
 }

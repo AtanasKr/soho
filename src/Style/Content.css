@@ -9,6 +9,9 @@
     border-color: #45508B;
     margin-top: 2em;
     padding-right: 20em;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 img {
@@ -102,5 +105,14 @@ p {
         margin-left: 0;
         padding-bottom: 2em;
         border-radius: 0  0 50px 50px;
+    }
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
     }
 }

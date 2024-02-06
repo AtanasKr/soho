@@ -29,3 +29,7 @@ code {
   border: none;
   font-size: 28px;
 }
+
+.more-btn button:hover {
+  opacity: 80%;
+}
